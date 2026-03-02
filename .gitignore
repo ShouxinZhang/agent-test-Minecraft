@@ -1,0 +1,10 @@
+node_modules/
+*.log
+server/world/
+server/logs/
+server/cache/
+server/plugins/
+server/libraries/
+server/versions/
+server/*.jar
+server/bundler/
