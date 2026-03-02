@@ -1,5 +1,5 @@
 #!/bin/bash
-# 启动交互式 Agent Bot
-cd "$(dirname "$0")/agent"
-echo "=== 启动 Minecraft Agent Bot ==="
-node bot.js
+set -euo pipefail
+
+# 兼容入口：统一转发到 scripts/ 目录
+"$(dirname "$0")/scripts/start-agent.sh"

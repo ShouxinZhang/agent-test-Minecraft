@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "check": "node --check bot.js && node --check research.js && node --check rl/env.js && node --check rl/q_agent.js && node --check rl/train.js && node --check rl/eval.js && node --check rl/visualize.js",
+    "gate": "npm run check",
+    "research": "node research.js",
+    "rl:train": "node rl/train.js 50",
+    "rl:eval": "node rl/eval.js",
+    "rl:viz": "node rl/visualize.js"
   },
   "keywords": [],
   "author": "",

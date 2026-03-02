@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "level_size": [
+    10,
+    8
+  ],
+  "scenarios": {
+    "initial": {
+      "status": "准备开始: 用方向键或 WASD 移动白色方块。",
+      "button_text": "显示最优路径",
+      "show_optimal_path": false,
+      "steps": 0,
+      "collected": 0,
+      "player": [
+        1,
+        1
+      ],
+      "canvas_counts": {
+        "rectangle": 81,
+        "oval": 3,
+        "line": 0,
+        "other": 0
+      },
+      "layout": {
+        "canvas_width": 400,
+        "canvas_height": 320,
+        "status_height": 36,
+        "button_width": 102,
+        "button_height": 32
+      }
+    },
+    "with_optimal_path": {
+      "status": "准备开始: 用方向键或 WASD 移动白色方块。",
+      "button_text": "隐藏最优路径",
+      "show_optimal_path": true,
+      "steps": 0,
+      "collected": 0,
+      "player": [
+        1,
+        1
+      ],
+      "canvas_counts": {
+        "rectangle": 81,
+        "oval": 3,
+        "line": 17,
+        "other": 0
+      },
+      "layout": {
+        "canvas_width": 400,
+        "canvas_height": 320,
+        "status_height": 36,
+        "button_width": 102,
+        "button_height": 32
+      }
+    },
+    "restarted": {
+      "status": "已重开: 用方向键或 WASD 移动，按 R 可再次重启。",
+      "button_text": "隐藏最优路径",
+      "show_optimal_path": true,
+      "steps": 0,
+      "collected": 0,
+      "player": [
+        1,
+        1
+      ],
+      "canvas_counts": {
+        "rectangle": 81,
+        "oval": 3,
+        "line": 17,
+        "other": 0
+      },
+      "layout": {
+        "canvas_width": 400,
+        "canvas_height": 320,
+        "status_height": 36,
+        "button_width": 102,
+        "button_height": 32
+      }
+    }
+  }
+}
