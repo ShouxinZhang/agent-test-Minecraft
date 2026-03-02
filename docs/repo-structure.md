@@ -10,16 +10,12 @@
 - `docs/`: 架构/日志/仓库文档。
 
 ## 启动入口约定
-- 推荐入口：
+- 统一入口：
   - `./scripts/start-server.sh`
   - `./scripts/start-agent.sh`
   - `./scripts/start-research.sh`
-- 兼容入口（历史命令，内部已转发到 `scripts/`）：
-  - `./start-server.sh`
-  - `./start-agent.sh`
-  - `./start-research.sh`
 
 ## 变更原则
 - 新增可执行脚本优先放入 `scripts/`。
-- 根目录仅保留兼容入口，不堆叠业务逻辑。
+- 根目录不放启动脚本，避免入口分散。
 - `agent/` 与 `server/` 的运行时代码和配置不要交叉放置。

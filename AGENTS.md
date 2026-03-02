@@ -21,9 +21,9 @@
 5. 先验证后交付：至少执行一次与改动相关的本地检查或运行命令。
 
 ## 5. 本仓库入口命令
-- 启动服务器：`./scripts/start-server.sh`（兼容入口：`./start-server.sh`）
-- 启动交互式 Agent：`./scripts/start-agent.sh`（兼容入口：`./start-agent.sh`）
-- 运行自动研究：`./scripts/start-research.sh`（兼容入口：`./start-research.sh`）
+- 启动服务器：`./scripts/start-server.sh`
+- 启动交互式 Agent：`./scripts/start-agent.sh`
+- 运行自动研究：`./scripts/start-research.sh`
 - Agent 语法检查：`cd agent && npm run check`
 - RL 训练：`cd agent && npm run rl:train`
 - RL 评估：`cd agent && npm run rl:eval`
